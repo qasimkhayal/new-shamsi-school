@@ -2,7 +2,8 @@ body {
   font-family: "Poppins", sans-serif;
 
   color: #1b1a1a;
-  background-image: url(../images/body-bg.jpg);
+  /* background-image: url(../images/body-bg.jpg); */
+  background-color: rgba(236, 221, 204, 0.776);
 }
 
 .layout_padding {
@@ -31,7 +32,7 @@ body {
   border-radius: 10px;
   font-size: 15px;
   text-transform: uppercase;
-  background-color: #fec913;
+  background-color: #85362a;
   border: 1px solid transparent;
   color: #fff;
   transition: all 0.3s ease 0s;
@@ -60,8 +61,12 @@ body {
   transform: translateY(-7px);
 }
 
+.logo-clr {
+  color:#85362a;
+}
+
 .main-heading {
-  color: #082465;
+  color:#85362a;
   font-weight: bold;
   text-align: center;
 }
@@ -230,7 +235,7 @@ h3 {
 .hero_detail-box h1 {
   text-transform: uppercase;
   font-size: 50px;
-  color: #fec913;
+  color: #85362a;
   font-weight: bold;
 }
 
@@ -277,7 +282,7 @@ h3 {
 .vehicle_section .carousel-control-next-icon {
   width: 50px;
   height: 50px;
-  background-color: #082465;
+  background-color: #85362a;
   border-radius: 100%;
   background-size: 10px;
   background-position: center;
@@ -306,7 +311,7 @@ h3 {
   width: 80%;
   margin: 0 auto;
   padding: 35px;
-  background-color: #fefeff;
+  background-color:#85362ab3;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
   -moz-box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
   box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
@@ -314,12 +319,12 @@ h3 {
 }
 
 .client_detail-box h4 {
-  color: #082465;
+  color:#090909;
 }
 
 .client_detail-box span {
   text-transform: uppercase;
-  color: #48494a;
+  color: #040404;
 }
 
 .client_detail .client_img-box {
@@ -335,7 +340,7 @@ h3 {
 
 /* contact section */
 .contact_section {
-  background-image: url(../images/shape-2.png);
+  /* background-image: url(../images/shape-2.png); */
   background-repeat: no-repeat;
   background-size: 14%;
   background-position: left center;
@@ -349,7 +354,7 @@ h3 {
 .contact-form input {
   border: none;
   outline: none;
-  background-color: #dedee0;
+  background-color: #85362ab3;
   width: 100%;
   margin: 10px 0;
   padding: 7px 10px;
@@ -360,7 +365,7 @@ h3 {
 }
 
 .contact-form input::placeholder {
-  color: #fff;
+  color: #080707;
 }
 
 .contact-form button {
@@ -369,7 +374,7 @@ h3 {
   padding: 7px 50px;
   text-transform: uppercase;
   margin-top: 25px;
-  background-color: #fec913;
+  background-color: #85362ad0;
   color: #fff;
 }
 
@@ -397,9 +402,9 @@ h3 {
 
 .admission_detail {
   width: 50%;
-  background-color: #082465;
+  background-color: rgba(236, 221, 204, 0.874);
   padding: 20px;
-  color: #fefeff;
+  color: #0e0e0e;
   border-radius: 0 25px 25px 0;
 }
 
@@ -408,7 +413,7 @@ h3 {
 }
 
 .admission_detail .admission_btn {
-  background-color: #fec913;
+  background-color:  #85362ad0;
   padding: 7px 35px;
   color: #fefeff;
   font-size: 15px;
@@ -424,7 +429,7 @@ h3 {
 }
 
 .landing_section .number_heading {
-  color: #fec913;
+  color: #85362ad0;
 }
 
 .landing_section p {
@@ -437,7 +442,7 @@ h3 {
 /* footer section*/
 
 .footer_section {
-  background-color: #082465;
+  background-color: #85362ae1;
   padding: 20px 0;
   font-family: "Roboto", sans-serif;
 }
